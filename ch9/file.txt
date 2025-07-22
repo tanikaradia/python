@@ -1,0 +1,6 @@
+You are peeking into a file now.
+This is second line.
+Third
+4th
+5
+end.
