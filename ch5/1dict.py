@@ -1,10 +1,12 @@
 dit={
     "u":"orange",
     "i":"blue",
-    "v":"pink"
+    "v":"pink",
+    "p":{"jj":99,"o":66}
 }
 
 print(dit,type(dit))
+print(dit['p']['o'])
 
 # dict of list
 d={
