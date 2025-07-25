@@ -9,4 +9,6 @@ print(tani.name,tani.age)
 
 anshu=Employee()
 anshu.age=21 # ins>class atrri preference
+#and also this doesnt change the class attri
+
 print(anshu.age,anshu.city)
