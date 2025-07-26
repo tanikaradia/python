@@ -6,6 +6,10 @@ import random
 bot=random.choice([-1,0,1])
 
 uStr=input('Choose for rock(r), paper(p), scissors(s): ')
+if uStr not in ['r', 'p', 's']:
+    print("Invalid input! Please try again.")
+    exit()
+
 uDict={'r':-1,'p':0,'s':1}
 revDict={-1:'rock',0:'paper',1:'scissors'}
 
